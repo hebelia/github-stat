@@ -3,12 +3,26 @@
 <!--
 https://github.community/t/support-theme-context-for-images-in-light-vs-dark-mode/147981/84
 -->
-<a href="https://github.com/jstrieb/github-stats">
-<img src="https://github.com/jstrieb/github-stats/blob/master/generated/overview.svg#gh-dark-mode-only" />
-<img src="https://github.com/jstrieb/github-stats/blob/master/generated/languages.svg#gh-dark-mode-only" />
-<img src="https://github.com/jstrieb/github-stats/blob/master/generated/overview.svg#gh-light-mode-only" />
-<img src="https://github.com/jstrieb/github-stats/blob/master/generated/languages.svg#gh-light-mode-only" />
+<a href="https://github.com/hebelia/github-stat">
+<img src="https://github.com/hebelia/github-stat/blob/master/generated/overview.svg#gh-dark-mode-only" />
+<img src="https://github.com/hebelia/github-stat/blob/master/generated/languages.svg#gh-dark-mode-only" />
+<img src="https://github.com/hebelia/github-stat/blob/master/generated/overview.svg#gh-light-mode-only" />
+<img src="https://github.com/hebelia/github-stat/blob/master/generated/languages.svg#gh-light-mode-only" />
 </a>
+
+
+![](https://raw.githubusercontent.com/hebelia/github-stat/master/generated/languages.svg#gh-dark-mode-only)
+![](https://raw.githubusercontent.com/hebelia/github-stat/master/generated/languages.svg#gh-light-mode-only)
+
+
+
+
+
+![](https://raw.githubusercontent.com/hebelia/github-stat/master/generated/overview.svg#gh-dark-mode-only)
+![](https://raw.githubusercontent.com/hebelia/github-stat/master/generated/overview.svg#gh-light-mode-only)
+
+
+
 
 Generate visualizations of GitHub user and repository statistics with GitHub
 Actions. Visualizations can include data for both private repositories, and for
@@ -37,7 +51,7 @@ the analysis code themselves via GitHub Actions, they can use their GitHub
 access token to collect statistics on private repositories that an external
 service would be unable to access.
 
-## Disclaimer
+## ⚠️ Disclaimer
 
 If the project is used with an access token that has sufficient permissions to
 read private repositories, it may leak details about those repositories in
@@ -60,7 +74,7 @@ For more information on inaccuracies, see issue
 [#3](https://github.com/jstrieb/github-stats/issues/3), and
 [#13](https://github.com/jstrieb/github-stats/issues/13).
 
-# Installation
+## ⚙️ Installation
 
 <!-- TODO: Add details and screenshots -->
 
@@ -111,6 +125,9 @@ For more information on inaccuracies, see issue
 8. To add your statistics to your GitHub Profile README, copy and paste the
    following lines of code into your markdown content. Change the `username`
    value to your GitHub username.
+
+
+
    ```md
    ![](https://raw.githubusercontent.com/username/github-stats/master/generated/overview.svg#gh-dark-mode-only)
    ![](https://raw.githubusercontent.com/username/github-stats/master/generated/overview.svg#gh-light-mode-only)
@@ -119,37 +136,26 @@ For more information on inaccuracies, see issue
    ![](https://raw.githubusercontent.com/username/github-stats/master/generated/languages.svg#gh-dark-mode-only)
    ![](https://raw.githubusercontent.com/username/github-stats/master/generated/languages.svg#gh-light-mode-only)
    ```
-9. Link back to this repository so that others can generate their own
-   statistics images.
-10. Star this repo if you like it!
 
 
-# Support the Project
+# GitHub Stats Visualizations : Transparent
+> Generate visualizations of GitHub user and repository statistics using GitHub
+Actions.
 
-There are a few things you can do to support the project:
+<a href="https://github.com/rahul-jha98/github-stats-transparent">
 
-- Star the repository (and follow me on GitHub for more)
-- Share and upvote on sites like Twitter, Reddit, and Hacker News
-- Report any bugs, glitches, or errors that you find
-
-These things motivate me to to keep sharing what I build, and they provide
-validation that my work is appreciated! They also help me improve the
-project. Thanks in advance!
-
-If you are insistent on spending money to show your support, I encourage you to
-instead make a generous donation to one of the following organizations. By advocating
-for Internet freedoms, organizations like these help me to feel comfortable
-releasing work publicly on the Web.
-
-- [Electronic Frontier Foundation](https://supporters.eff.org/donate/)
-- [Signal Foundation](https://signal.org/donate/)
-- [Mozilla](https://donate.mozilla.org/en-US/)
-- [The Internet Archive](https://archive.org/donate/index.php)
+![](https://raw.githubusercontent.com/rahul-jha98/github-stats-transparent/output/generated/overview.svg)
+![](https://raw.githubusercontent.com/rahul-jha98/github-stats-transparent/output/generated/languages.svg)
 
 
-# Related Projects
 
-- Inspired by a desire to improve upon
-  [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
-- Makes use of [GitHub Octicons](https://primer.style/octicons/) to precisely
-  match the GitHub UI
+![](https://raw.githubusercontent.com/hebelia/github-stat/output/generated/overview.svg)
+![](https://raw.githubusercontent.com/hebelia/github-stat/output/generated/languages.svg)
+
+</a>
+
+> NOTE: This repository is my extension of the repo [jstrieb/github-stats](https://github.com/jstrieb/github-stats). This repo was meant to serve as a detached fork of his project. If you like this repository make sure you also star his repository to show appreciation for his work. 
+
+
+
+
