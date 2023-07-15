@@ -3,14 +3,19 @@
 <!--
 https://github.community/t/support-theme-context-for-images-in-light-vs-dark-mode/147981/84
 -->
+
 <a href="https://github.com/hebelia/github-stat">
-<img src="https://github.com/hebelia/github-stat/blob/master/generated/overview.svg#gh-dark-mode-only" />
+
 <img src="https://github.com/hebelia/github-stat/blob/master/generated/languages.svg#gh-dark-mode-only" />
-<img src="https://github.com/hebelia/github-stat/blob/master/generated/overview.svg#gh-light-mode-only" />
+
+<img src="https://github.com/hebelia/github-stat/blob/master/generated/overview.svg#gh-dark-mode-only" />
+
 <img src="https://github.com/hebelia/github-stat/blob/master/generated/languages.svg#gh-light-mode-only" />
+<img src="https://github.com/hebelia/github-stat/blob/master/generated/overview.svg#gh-light-mode-only" />
+
 </a>
 
-
+<!--
 ![](https://raw.githubusercontent.com/hebelia/github-stat/master/generated/languages.svg#gh-dark-mode-only)
 ![](https://raw.githubusercontent.com/hebelia/github-stat/master/generated/languages.svg#gh-light-mode-only)
 
@@ -21,8 +26,7 @@ https://github.community/t/support-theme-context-for-images-in-light-vs-dark-mod
 ![](https://raw.githubusercontent.com/hebelia/github-stat/master/generated/overview.svg#gh-dark-mode-only)
 ![](https://raw.githubusercontent.com/hebelia/github-stat/master/generated/overview.svg#gh-light-mode-only)
 
-
-
+ -->
 
 Generate visualizations of GitHub user and repository statistics with GitHub
 Actions. Visualizations can include data for both private repositories, and for
@@ -85,12 +89,12 @@ For more information on inaccuracies, see issue
    the access token when it is generated – if you lose it, you will have to
    regenerate the token.
    - Some users are reporting that it can take a few minutes for the personal
-     access token to work. For more, see 
+     access token to work. For more, see
      [#30](https://github.com/jstrieb/github-stats/issues/30).
 2. Create a copy of this repository by clicking
    [here](https://github.com/jstrieb/github-stats/generate). Note: this is
    **not** the same as forking a copy because it copies everything fresh,
-   without the huge commit history. 
+   without the huge commit history.
 3. Go to the "Secrets" page of your copy of the repository. If this is the
    README of your copy, click [this link](../../settings/secrets/actions) to go
    to the "Secrets" page. Otherwise, go to the "Settings" tab of the
@@ -98,7 +102,7 @@ For more information on inaccuracies, see issue
 4. Create a new secret with the name `ACCESS_TOKEN` and paste the copied
    personal access token as the value.
 5. It is possible to change the type of statistics reported by adding other
-   repository secrets. 
+   repository secrets.
    - To ignore certain repos, add them (in owner/name format e.g.,
      `jstrieb/github-stats`) separated by commas to a new secret—created as
      before—called `EXCLUDED`.
@@ -117,7 +121,7 @@ For more information on inaccuracies, see issue
 6. Go to the [Actions
    Page](../../actions?query=workflow%3A"Generate+Stats+Images") and press "Run
    Workflow" on the right side of the screen to generate images for the first
-   time. 
+   time.
    - The images will be automatically regenerated every 24 hours, but they can
      be regenerated manually by running the workflow this way.
 7. Take a look at the images that have been created in the
@@ -126,36 +130,17 @@ For more information on inaccuracies, see issue
    following lines of code into your markdown content. Change the `username`
    value to your GitHub username.
 
-
-
    ```md
    ![](https://raw.githubusercontent.com/username/github-stats/master/generated/overview.svg#gh-dark-mode-only)
    ![](https://raw.githubusercontent.com/username/github-stats/master/generated/overview.svg#gh-light-mode-only)
    ```
+
    ```md
    ![](https://raw.githubusercontent.com/username/github-stats/master/generated/languages.svg#gh-dark-mode-only)
    ![](https://raw.githubusercontent.com/username/github-stats/master/generated/languages.svg#gh-light-mode-only)
    ```
 
-
-# GitHub Stats Visualizations : Transparent
 > Generate visualizations of GitHub user and repository statistics using GitHub
-Actions.
+> Actions.
 
-<a href="https://github.com/rahul-jha98/github-stats-transparent">
-
-![](https://raw.githubusercontent.com/rahul-jha98/github-stats-transparent/output/generated/overview.svg)
-![](https://raw.githubusercontent.com/rahul-jha98/github-stats-transparent/output/generated/languages.svg)
-
-
-
-![](https://raw.githubusercontent.com/hebelia/github-stat/output/generated/overview.svg)
-![](https://raw.githubusercontent.com/hebelia/github-stat/output/generated/languages.svg)
-
-</a>
-
-> NOTE: This repository is my extension of the repo [jstrieb/github-stats](https://github.com/jstrieb/github-stats). This repo was meant to serve as a detached fork of his project. If you like this repository make sure you also star his repository to show appreciation for his work. 
-
-
-
-
+> NOTE: This repository is my extension of the repo [jstrieb/github-stats](https://github.com/jstrieb/github-stats). This repo was meant to serve as a detached fork of his project. If you like this repository make sure you also star his repository to show appreciation for his work.
