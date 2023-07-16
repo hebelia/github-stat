@@ -30,13 +30,16 @@ https://github.community/t/support-theme-context-for-images-in-light-vs-dark-mod
 ![](https://raw.githubusercontent.com/hebelia/github-stat/master/generated/overview.svg#gh-light-mode-only)
 
  -->
+<div align="center">
 
-Generate visualizations of GitHub user and repository statistics with GitHub
+*Generate visualizations of GitHub user and repository statistics with GitHub
 Actions. Visualizations can include data for both private repositories, and for
-repositories you have contributed to, but do not own.
+repositories you have contributed to, but do not own.*
+*Generated images automatically switch between GitHub light theme and GitHub
+dark theme.*
+*There are also some additional commented settings to make the background transparent*
 
-Generated images automatically switch between GitHub light theme and GitHub
-dark theme.
+</div>
 
 ## 🔎 Background
 
@@ -142,5 +145,5 @@ For more information on inaccuracies, see issue
    ![](https://raw.githubusercontent.com/username/github-stats/master/generated/languages.svg#gh-dark-mode-only)
    ![](https://raw.githubusercontent.com/username/github-stats/master/generated/languages.svg#gh-light-mode-only)
    ```
-   
+
 > NOTE: This repository is my extension of the repo [jstrieb/github-stats](https://github.com/jstrieb/github-stats). This repo was meant to serve as a detached fork of his project. If you like this repository make sure you also star his repository to show appreciation for his work.
