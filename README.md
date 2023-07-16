@@ -1,9 +1,11 @@
-# [GitHub Stats Visualization](https://github.com/jstrieb/github-stats)
+<div align="center">
 
+# *GitHub Stats Visualization*
+</div>
 <!--
 https://github.community/t/support-theme-context-for-images-in-light-vs-dark-mode/147981/84
 -->
-
+<div align="center">
 <a href="https://github.com/hebelia/github-stat">
 
 <img src="https://github.com/hebelia/github-stat/blob/master/generated/languages.svg#gh-dark-mode-only" />
@@ -14,6 +16,7 @@ https://github.community/t/support-theme-context-for-images-in-light-vs-dark-mod
 <img src="https://github.com/hebelia/github-stat/blob/master/generated/overview.svg#gh-light-mode-only" />
 
 </a>
+</div>
 
 <!--
 ![](https://raw.githubusercontent.com/hebelia/github-stat/master/generated/languages.svg#gh-dark-mode-only)
@@ -35,7 +38,7 @@ repositories you have contributed to, but do not own.
 Generated images automatically switch between GitHub light theme and GitHub
 dark theme.
 
-## Background
+## 🔎 Background
 
 When someone views a profile on GitHub, it is often because they are curious
 about a user's open source projects and contributions. Unfortunately, that
@@ -139,8 +142,5 @@ For more information on inaccuracies, see issue
    ![](https://raw.githubusercontent.com/username/github-stats/master/generated/languages.svg#gh-dark-mode-only)
    ![](https://raw.githubusercontent.com/username/github-stats/master/generated/languages.svg#gh-light-mode-only)
    ```
-
-> Generate visualizations of GitHub user and repository statistics using GitHub
-> Actions.
-
+   
 > NOTE: This repository is my extension of the repo [jstrieb/github-stats](https://github.com/jstrieb/github-stats). This repo was meant to serve as a detached fork of his project. If you like this repository make sure you also star his repository to show appreciation for his work.
