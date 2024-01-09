@@ -36,7 +36,7 @@ https://github.community/t/support-theme-context-for-images-in-light-vs-dark-mod
 Actions. Visualizations can include data for both private repositories, and for
 repositories you have contributed to, but do not own.*
 *Generated images automatically switch between GitHub light theme and GitHub
-dark theme.*
+dark theme. *
 *There are also some additional commented settings to make the background transparent*
 
 </div>
